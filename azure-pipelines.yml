@@ -1,1 +1,2 @@
-source :rubygems gem 'gist'
+- script:source :rubygems gem 'gist'
+  displayName: 'gist install'
