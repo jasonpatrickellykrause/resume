@@ -1,0 +1,435 @@
+{
+    "basics": {
+        "name": "Jason Krause",
+        "label": "Passionate automator, advocate for a growth mindset and grit.",
+        "picture": "",
+        "email": "jasonkrause@live.com",
+        "phone": "(719) 439-8533",
+        "website": "http://jasonkrause.me",
+        "summary": "Technical professional with a diverse background in Agile, cybersecurity, system integration, platform engineering, and team leadership.",
+        "location": {
+            "address": "PO BOX 1642",
+            "postalCode": "80133",
+            "city": "Palmer Lake",
+            "countryCode": "USA",
+            "region": "Colorado"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "Jason_Krause_CO",
+                "url": "https://twitter.com/Jason_Krause_CO"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "JasonPatricKellyKrause",
+                "url": "https://www.linkedin.com/in/JasonPatricKellyKrause/"
+            },
+            {
+                "network": "GitHub",
+                "username": "JasonPatricKellyKrause",
+                "url": "https://github.com/jasonpatrickellykrause"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Raytheon Technologies",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Platform Engineer / Scrum Master",
+            "startDate": "2020-06-01",
+            "summary": "Developer and Scrum Master for DevSecOps Platform Engineering team. Initial team goals included replacing costly legacy lab solutions with Lab as a Service (LaaS) solution that provides internal customers with immutable test infrastructure. Sucess of initial program has ignited interest in developing similar solution beyond development into test and delivery. Work with stakeholders and customers to develop continuous integration platform pipeline using Gitlab CI, HashiCorp Packer, Ansible, and OpenSCAP.",
+            "website": "https://www.rtx.com/"
+        },
+        {
+            "company": "CrossFit Blue Cord",
+            "highlights": [],
+            "location": "Gleneagle, CO",
+            "position": "CrossFit Level 2 Trainer (CF-L2 Trainer)",
+            "startDate": "2019-10-01",
+            "summary": "Lead CrossFit workouts for a wide variety of clients with different goals. Educate clients on proper form, gymnastic and Olympic lifting techniques, injury prevention, mobility, and proper nutrition. Provide specialized training for clients based on personal needs and goals.",
+            "website": "https://www.bluecordcrossfit.com/"
+        },
+        {
+            "company": "Raytheon Technologies",
+            "endDate": "2020-05-31",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Senior Cybersecurity Engineer II / Scrum Master",
+            "startDate": "2019-03-01",
+            "summary": "Refactored Group Policy testing and deployment to ensure delivery of versioned security baselines to production systems. Brought system baselines into current Security Technical Implementation Guide (STIG) recommendations. Successfully migrated team code base to GitLab ensuring accurate change history and version control. Performed additional role as Scrum Master for automation team. Worked as servant-leader to facilitate value delivery and remove developer roadblocks.",
+            "website": "https://www.rtx.com/"
+        },
+        {
+            "company": "Raytheon Technologies",
+            "endDate": "2019-02-28",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Senior Cybersecurity Engineer II",
+            "startDate": "2018-04-01",
+            "summary": "Designed Cybersecurity solutions for the NORAD Integrated Tactical Warning/Attack Assessment and Space Support Contract (NISSC). Developed stand-alone PowerShell based solutions to deploy and verify the mitigation of vulnerabilities in legacy Windows systems. Accelerated deployment of modern Windows systems as a PowerShell Desired State Configuration developer. Worked with customer prioritize legacy system vulnerability remediation while minimizing resources required to meet customer needs.",
+            "website": "https://www.rtx.com/"
+        },
+        {
+            "company": "Vykin Corporation",
+            "endDate": "2018-03-01",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Senior End User Computing Engineer",
+            "startDate": "2017-10-01",
+            "summary": "Work with Vykin's customers to architect Windows-based end-user solutions (e.g. Windows 10 migration), including key success factors, project scope while driving a better understanding of the customer’s environment and potential project risks.  Design and lead product demos, Proof of Concepts and pilot engagements to help drive requirements, success factors and customer confidence in End User Engineer's (EUC) proprietary software solutions.  Work closely with the EUC software development team to communicate requirements and participate in functional design and prioritization of software enhancement/features backlog.   Design and deliver procedures for end user consumption.",
+            "website": "https://www.sosi.com/"
+        },
+        {
+            "company": "Microsoft",
+            "endDate": "2017-09-01",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Premier Field Engineer",
+            "startDate": "2016-01-01",
+            "summary": "Platform PFE for DoD customers working primarily with Navy, MDA, and USMC customers  Specialized in Windows, Server, Active Directory and Virtualization technologies with deep understanding and ability to deliver timely and creative incident resolution focused on root cause analysis, prevention, and subsequent knowledge transfer  Successfully managed Microsoft IaaS resources for major political campaign event resulting in system-wide stability and security.",
+            "website": "https://www.microsoft.com/"
+        },
+        {
+            "company": "CrossFit 7070 LLC",
+            "endDate": "2017-09-30",
+            "highlights": [],
+            "location": "Monument, CO",
+            "position": "CrossFit Level 2 Trainer (CF-L2 Trainer)",
+            "startDate": "2015-09-01",
+            "summary": "Lead CrossFit workouts for a wide variety of clients with different goals. Educate clients on proper form, gymnastic and Olympic lifting techniques, injury prevention, mobility, and proper nutrition. Provide specialized training for clients based on personal needs and goals.",
+            "website": "https://www.crossfit7070.com/"
+        },
+        {
+            "company": "Lockheed Martin",
+            "endDate": "2016-01-01",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Senior System Integration Analyst",
+            "startDate": "2013-10-01",
+            "summary": "Develop and test Windows images for enterprise deployment  Explore and test new Windows versions and features for inclusion in the enterprise.  Supported SCCM 2012 and 2007 Windows infrastructure.  Engineered, tested, and implemented disaster recovery solution using Hyper-V Replica.  Led team in server deployments during 2012 Distribution Point roll out and process improvement.",
+            "website": "https://www.lockheedmartin.com"
+        },
+        {
+            "company": "Lockheed Martin",
+            "endDate": "2013-10-01",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Senior System Administrator",
+            "startDate": "2009-05-01",
+            "summary": "Established role in the company as an expert in Group Policy and Active Directory delegation.  Led team in efforts related to PowerShell scripting and automation.  Implemented numerous improvements to standard operating procedures resulting in efficient and standardized processes that reduced workflow bottlenecks.  Developed and performed integration and system tests for Active Directory service upgrades.  Tested ongoing software upgrades and enhancements with a focus on directory service quality and stability.",
+            "website": "https://www.lockheedmartin.com"
+        },
+        {
+            "company": "Lockheed Martin",
+            "endDate": "2009-05-01",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Senior System Administrator",
+            "startDate": "2007-08-01",
+            "summary": "Support unclassified networks for Air Force and contractors. Maintain smooth operation of computer systems. Duties include active directory and group policy management, SMS and WSUS administration and software deployment, Operating System, and application support.   Worked with Dept. of Defense and USAF programs to evangelize new operating system deployment and testing. Achieved the highest percentage of upgraded systems and test participants among participating sites.  Developed role-based security procedures using administrative and technical controls that stabilized network while enhancing system security.  Consolidated costly legacy systems to VMware.",
+            "website": "https://www.lockheedmartin.com"
+        },
+        {
+            "company": "Lockheed Martin",
+            "endDate": "2007-08-01",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Helpdesk Support Technician",
+            "startDate": "2005-11-01",
+            "summary": "Resolved technical issues for USAF customers at Schriever AFB. Supported general operating system, networking, hardware, and LOB issues for approximately four thousand clients.  Responsible for advanced troubleshooting of critical issues, while acting as a liaison to the disparate system and product contacts.",
+            "website": "https://www.lockheedmartin.com"
+        },
+        {
+            "company": "HP",
+            "endDate": "2005-11-01",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Helpdesk Support Technician",
+            "startDate": "2003-08-01",
+            "summary": "Resolved technical issues for Microsoft internal employees, supporting messaging and collaboration tools, as well as remote access.  Authored numerous technical articles for internal solution database resulting in lower call times.  Trained peers into the department to expand support queues and reduce wait times.  Acted as liaison between levels of support staff to ensure the quality of communication.",
+            "website": "https://www.hp.com"
+        },
+        {
+            "company": "Wide Open West",
+            "endDate": "2002-10-01",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Senior Technical Support Engineer",
+            "startDate": "2002-04-01",
+            "summary": "",
+            "website": "https://www.wowway.com/"
+        },
+        {
+            "company": "Gateway",
+            "endDate": "2002-04-01",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Helpdesk Support Technician",
+            "startDate": "1999-10-01",
+            "summary": "",
+            "website": "https://www.gateway.com/"
+        }
+    ],
+    "education": [
+        {
+            "area": "Computer Science – Cybersecurity Engineering",
+            "courses": [
+                "CS627 - Design and Analysis of Algorithms",
+                "CS630 - Modern Operating Systems",
+                "CS631 - Digital Forensics",
+                "CS635 - Computer Networking",
+                "CS651 - Computer Systems Security Foundations",
+                "CS652 - Operating Systems Security",
+                "CS653 - Network Security",
+                "CS654 - Security Management",
+                "CS660 - Database Systems",
+                "CS661 - Software Information Assurance",
+                "CS672 - Systems Engineering Methods",
+                "CS698 - Computer Science Capstone"
+            ],
+            "endDate": "2020-05-09",
+            "gpa": "3.96",
+            "institution": "Colorado Technical University",
+            "startDate": "2017-12-31",
+            "studyType": "Master",
+            "website": "https://www.coloradotech.edu/"
+        },
+        {
+            "area": "Computer Systems Security",
+            "courses": [
+                "CE242 - Computer Architecture",
+                "CJUS365 - Criminal Law",
+                "CS215 - Intermediate C++ Programming",
+                "CS230 - Data Structures",
+                "CS250 - Fundamentals of Database Systems",
+                "CS265 - Algorithms",
+                "CS340 - Operating Systems",
+                "CSS300 - Vulnerability Assessment and Management",
+                "CSS320 - Process Engineering",
+                "CSS380 - Business Continuity and Disaster Recovery Planning",
+                "CSS440 - Security Policy and Leadership",
+                "ENGL210 - Professional Speaking",
+                "IT300 - Computer Networks and Communications",
+                "IT697 - Information Technology Capstone",
+                "MATH104 - Trigonometry",
+                "MATH115 - Pre-Calculus",
+                "MATH200 - Discrete Mathematics",
+                "MATH201 - Calculus I",
+                "MATH304 - Linear Algebra",
+                "MATH306 - Computer Assisted Statistics",
+                "PHIL310 - Ethics",
+                "PM210 - Introduction to Project Management"
+            ],
+            "endDate": "2011-12-31",
+            "gpa": "3.78",
+            "institution": "Colorado Technical University",
+            "startDate": "2007-12-31",
+            "studyType": "Bachelor",
+            "website": "https://www.coloradotech.edu/"
+        },
+        {
+            "area": "Network Systems Security",
+            "courses": [
+                "CJUS141 - Introduction to Criminal Justice",
+                "CSS200 - Principles of Network Security",
+                "CSS250CS - Security Risk Management",
+                "CSS350 - Computer Forensics I",
+                "CSS351 - Computer Forensics II",
+                "INTD111 - Creating Academic and Professional Success",
+                "IT235 - Database Applications With Access"
+            ],
+            "endDate": "2007-12-31",
+            "gpa": "3.69",
+            "institution": "Colorado Technical University",
+            "startDate": "2006-12-31",
+            "studyType": "Associate",
+            "website": "https://www.coloradotech.edu/"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Certified Information Systems Security Professional (CISSP)",
+            "summary": "(ISC)² Member ID 718670",
+            "awarder": "(ISC)²",
+            "date": "2020-04-09"
+        },
+        {
+            "title": "Security+",
+            "summary": "Candidate ID COMP10287400",
+            "awarder": "CompTIA",
+            "date": "2007-04-27"
+        },
+        {
+            "title": "Security+ CE",
+            "summary": "Candidate ID COMP10287400",
+            "awarder": "CompTIA",
+            "date": "2017-10-19"
+        },
+        {
+            "title": "Microsoft Certified: Azure Fundamentals",
+            "summary": "Certification Number: H449-6971",
+            "awarder": "Microsoft",
+            "date": "2020-07-01"
+        },
+        {
+            "title": "Microsoft Certified Solutions Expert: Cloud Platform and Infrastructure",
+            "summary": "Certification Number: G044-6702",
+            "awarder": "Microsoft ",
+            "date": "2017-01-01"
+        },
+        {
+            "title": "Microsoft Certified Solutions Expert: Cloud Platform and Infrastructure (Charter)",
+            "summary": "Certification Number: G011-6004",
+            "awarder": "Microsoft",
+            "date": "2016-11-29"
+        },
+        {
+            "title": "Microsoft Certified Solutions Expert: Mobility (Charter)",
+            "summary": "Certification Number: F806-4597",
+            "awarder": "Microsoft",
+            "date": "2016-09-26"
+        },
+        {
+            "title": "Microsoft Certified Solutions Associate: Windows Server 2016 (Charter)",
+            "summary": "Certification Number: F893-9803",
+            "awarder": "Microsoft",
+            "date": "2016-09-01"
+        },
+        {
+            "title": "Microsoft Specialist: Planning for and Managing Devices in the Enterprise (Charter)",
+            "summary": "Certification Number: F623-1292",
+            "awarder": "Microsoft",
+            "date": "2016-01-08"
+        },
+        {
+            "title": "Microsoft Certified Solutions Associate: Windows 10 (Charter)",
+            "summary": "Certification Number: F529-0516",
+            "awarder": "Microsoft",
+            "date": "2015-12-14"
+        },
+        {
+            "title": "Microsoft Specialist: Configuring Windows Device (Charter)",
+            "summary": "Certification Number: F477-5108",
+            "awarder": "Microsoft",
+            "date": "2015-11-25"
+        },
+        {
+            "title": "Microsoft Specialist: Server Virtualization with Windows Server Hyper-V and System Center",
+            "summary": "Certification Number: E736-4560",
+            "awarder": "Microsoft ",
+            "date": "2014-01-24"
+        },
+        {
+            "title": "Microsoft Certified Solutions Associate: Windows Server 2012",
+            "summary": "Certification Number: E238-9391",
+            "awarder": "Microsoft ",
+            "date": "2013-04-16"
+        },
+        {
+            "title": "Microsoft Certified Technology Specialist: Windows Server 2008 R2, Server Virtualization",
+            "summary": "Certification Number: E004-5246",
+            "awarder": "Microsoft",
+            "date": "2012-09-07"
+        },
+        {
+            "title": "Microsoft Certified Solutions Associate: Windows Server 2008",
+            "summary": "Certification Number: D713-8802",
+            "awarder": "Microsoft",
+            "date": "2012-04-16"
+        },
+        {
+            "title": "Microsoft Certified Technology Specialist: Windows Server 2008 Applications Infrastructure, Configuration",
+            "summary": "Certification Number: B007-4777",
+            "awarder": "Microsoft",
+            "date": "2009-09-30"
+        },
+        {
+            "title": "Microsoft Certified IT Professional: Enterprise Administrator on Windows Server 2008",
+            "summary": "Certification Number: B007-4779",
+            "awarder": "Microsoft",
+            "date": "2009-09-30"
+        },
+        {
+            "title": "Microsoft Certified Technology Specialist: Windows Server 2008 Active Directory, Configuration",
+            "summary": "Certification Number: B007-4775",
+            "awarder": "Microsoft",
+            "date": "2008-10-13"
+        },
+        {
+            "title": " Microsoft Certified Technology Specialist: Windows Server 2008 Network Infrastructure, Configuration",
+            "summary": "Certification Number: B007-4776",
+            "awarder": "Microsoft",
+            "date": "2008-10-13"
+        },
+        {
+            "title": "Professional Scrum Master I",
+            "summary": "https://www.scrum.org/certificates/439036",
+            "awarder": "Scrum.org",
+            "date": "2019-08-08"
+        },
+        {
+            "title": "Precision Nutrition Level 1 Certificate",
+            "summary": "",
+            "awarder": "Precision Nutrition",
+            "date": "2019-12-26"
+        },
+        {
+            "title": "CrossFit Level 2 Trainer Certificate",
+            "summary": "",
+            "awarder": "CrossFit",
+            "date": "2017-08-13"
+        },
+        {
+            "title": "CrossFit Level 1 Trainer Certificate",
+            "summary": "",
+            "awarder": "CrossFit",
+            "date": "2015-09-25"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Security Clearance",
+            "level": "Top Secret",
+            "keywords": [
+                "Top Secret",
+                "SSBI"
+            ]
+        }
+    ],
+    "interests": [
+        {
+            "name": "Indoor Activities",
+            "keywords": [
+                "CrossFit",
+                "Playing Bass Guitar",
+                "Reading",
+                "Taking care of my cats",
+                "Video Games"
+            ]
+        },
+        {
+            "name": "Outdoor Activities",
+            "keywords": [
+                "Climbing",
+                "Mountain Biking",
+                "Snowboarding",
+                "Trail Running"
+            ]
+        }
+    ],
+    "projects": [],
+    "meta": {
+        "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+        "lastModified": "2017-12-24T15:53:00",
+        "theme": "elegant",
+        "version": "v1.0.0"
+    }
+}
