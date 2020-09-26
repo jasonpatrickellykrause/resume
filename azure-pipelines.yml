@@ -16,5 +16,12 @@ steps:
     apt install gist
 
 - script: |
-    (umask 0077 && echo MY_SECRET_TOKEN > ~/.gist)
-    gist resume.json
+    echo MY_SECRET_TOKEN > ~/.gist
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.
+      
+      Write-Host $env:MY_SECRET_TOKEN
+      Select-Command gist
