@@ -19,9 +19,9 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      sudo npm install resume-cli
-      sudo npm install  jsonresume-theme-kwan
-      sud npm audit fix --force
+      npm install -g resume-cli
+      npm install -g jsonresume-theme-kwan
+      npm audit fix --force
 
       mkdir ~/resume
       resume export --theme kwan
