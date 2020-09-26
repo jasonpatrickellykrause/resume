@@ -13,4 +13,4 @@ steps:
     script: |
       gem install gist
       (umask 0077 && echo $(MY_SECRET_TOKEN) > ~/.gist)
-      gist resume.json
+      gist -vvv -u b4e53b549f0deaa27a01ab9955bce674 resume.json
