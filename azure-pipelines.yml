@@ -24,5 +24,4 @@ steps:
       sudo npm install -g jsonresume-theme-kwan --unsafe-perm=true --allow-root
       pwd
       mkdir ~/resume
-      resume export --theme kwan
-      resume export --format resume.md
+      resume export --theme kwan ~/resume/resume.html
