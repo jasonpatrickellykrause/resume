@@ -14,3 +14,12 @@ steps:
       gem install gist
       (umask 0077 && echo $(MY_SECRET_TOKEN) > ~/.gist)
       gist -u b4e53b549f0deaa27a01ab9955bce674 resume.json
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      npm install resume-cli
+      npm install  jsonresume-theme-kwan
+      mkdir ~/resume
+      resume export --theme kwan
