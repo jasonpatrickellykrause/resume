@@ -11,17 +11,15 @@ steps:
   inputs:
     versionSpec: '>= 2.5'
 
-- script: |
-    gem install bundler
-    apt install gist
+- task: CmdLine@2
+  inputs:
+    script: |
+      gem install bundler
+      apt install gist
 
-- script: |
-    echo MY_SECRET_TOKEN > ~/.gist
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
-    script: |
-      # Write your PowerShell commands here.
-      
-      Write-Host $env:MY_SECRET_TOKEN
-      Select-Command gist
+    script: |      
+      Set-Content -Path ~/.gist -Value $env:MY_SECRET_TOKEN
+      Get-Command gist
