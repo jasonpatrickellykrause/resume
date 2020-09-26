@@ -19,10 +19,10 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
+      export PUPPETEER_SKIP_DOWNLOAD='true'
       sudo npm install -g resume-cli
       sudo npm install -g jsonresume-theme-kwan
       pwd
       mkdir ~/resume
       resume export --theme kwan
       resume export --format resume.md
-      tree
