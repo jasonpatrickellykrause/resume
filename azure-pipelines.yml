@@ -19,6 +19,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
+      sudo npm install npm@latest -g --allow-root
       sudo npm install -g resume-cli --unsafe-perm=true --allow-root
       sudo npm install -g jsonresume-theme-kwan --unsafe-perm=true --allow-root
       pwd
