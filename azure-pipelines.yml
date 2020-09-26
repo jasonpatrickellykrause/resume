@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/ruby
 
 pool:
-  vmImage: 'Ubuntu 16.04'
+  vmImage: 'windows-latest'
 
 steps:
 - task: UseRubyVersion@0
@@ -12,5 +12,6 @@ steps:
     versionSpec: '>= 2.5'
 
 - script: |
+    gem install bundler
     apt install gist
     gist resume.json
