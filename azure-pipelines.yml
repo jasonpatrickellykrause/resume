@@ -20,7 +20,7 @@ steps:
     targetType: 'inline'
     script: |     
       
-      sudo npm install -g puppeteer
+      sudo npm install -g puppeteer --unsafe-perm=true
       sudo npm install -g resume-cli
       sudo npm install -g jsonresume-theme-kwan
       sudo npm audit fix --force
