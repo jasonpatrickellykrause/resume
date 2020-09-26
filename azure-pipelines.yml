@@ -19,9 +19,8 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      export PUPPETEER_SKIP_DOWNLOAD='true'
-      sudo npm install -g resume-cli
-      sudo npm install -g jsonresume-theme-kwan
+      sudo npm install -g resume-cli --unsafe-perm=true --allow-root
+      sudo npm install -g jsonresume-theme-kwan --unsafe-perm=true --allow-root
       pwd
       mkdir ~/resume
       resume export --theme kwan
