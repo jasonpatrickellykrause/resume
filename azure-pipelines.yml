@@ -18,7 +18,9 @@ steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
-    script: |
+    script: |     
+      
+      sudo npm install -g puppeteer
       sudo npm install -g resume-cli
       sudo npm install -g jsonresume-theme-kwan
       sudo npm audit fix --force
