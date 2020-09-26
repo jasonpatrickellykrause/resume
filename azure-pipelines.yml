@@ -21,5 +21,8 @@ steps:
     script: |
       npm install resume-cli
       npm install  jsonresume-theme-kwan
+      npm audit fix --force
+
       mkdir ~/resume
       resume export --theme kwan
+      resume export --format resume.md
