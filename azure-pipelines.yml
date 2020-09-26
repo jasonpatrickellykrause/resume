@@ -23,6 +23,7 @@ steps:
 
       sudo npm install npm@latest --global --allow-root
       sudo npm install --global resume-cli --unsafe-perm=true --allow-root
+      sudo npm install jsonresume-theme-kwan --unsafe-perm=true --allow-root
 
       npm install jsonresume-theme-kwan
       resume export --theme kwan resume.html
