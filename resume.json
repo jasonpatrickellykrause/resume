@@ -176,6 +176,8 @@
         {
             "area": "Computer Science – Cybersecurity Engineering",
             "courses": [
+                "CS503 - Programming Languages and Data Structures",
+                "CS505 - Discrete Math and Computer Algorithms",
                 "CS627 - Design and Analysis of Algorithms",
                 "CS630 - Modern Operating Systems",
                 "CS631 - Digital Forensics",
@@ -220,7 +222,8 @@
                 "MATH304 - Linear Algebra",
                 "MATH306 - Computer Assisted Statistics",
                 "PHIL310 - Ethics",
-                "PM210 - Introduction to Project Management"
+                "PM210 - Introduction to Project Management",
+                "SCI120 - The Impact of Science and Technology on Society"
             ],
             "endDate": "2011-12-31",
             "gpa": "3.78",
@@ -238,7 +241,10 @@
                 "CSS350 - Computer Forensics I",
                 "CSS351 - Computer Forensics II",
                 "INTD111 - Creating Academic and Professional Success",
-                "IT235 - Database Applications With Access"
+                "IT145 - Client/Server Operating Systems",
+                "IT180 - Introduction to Computer Technology",
+                "IT235 - Database Applications With Access",
+                "MATH143 - Business Algebra"
             ],
             "endDate": "2007-12-31",
             "gpa": "3.69",
