@@ -19,14 +19,18 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
+      # Install Tree
       sudo apt-get install tree
 
       sudo npm install npm@latest --global --allow-root
       sudo npm install --global resume-cli --unsafe-perm=true --allow-root
       sudo npm install jsonresume-theme-kwan --unsafe-perm=true --allow-root
 
+      # Install Kwan 
       npm install jsonresume-theme-kwan
+
+      # Resume Export
       resume export --theme kwan resume.html
 
-      ls
+      # Tree
       tree
