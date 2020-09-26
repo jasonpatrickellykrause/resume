@@ -12,5 +12,5 @@ steps:
     targetType: 'inline'
     script: |
       gem install gist
-      (umask 0077 && echo MY_SECRET_TOKEN > ~/.gist)
+      (umask 0077 && echo $(MY_SECRET_TOKEN) > ~/.gist)
       gist resume.json
