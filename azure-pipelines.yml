@@ -14,4 +14,7 @@ steps:
 - script: |
     gem install bundler
     apt install gist
+
+- script: |
+    (umask 0077 && echo MY_SECRET_TOKEN > ~/.gist)
     gist resume.json
