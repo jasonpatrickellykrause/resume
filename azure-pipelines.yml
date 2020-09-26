@@ -1,25 +1,16 @@
-# Ruby
-# Package your Ruby application.
-# Add steps that install rails, analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/ruby
-
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'ubuntu-latest'
 
 steps:
 - task: UseRubyVersion@0
   inputs:
     versionSpec: '>= 2.5'
 
-- task: CmdLine@2
-  inputs:
-    script: |
-      gem install bundler
-      apt install gist
 
-- task: PowerShell@2
+- task: Bash@3
   inputs:
     targetType: 'inline'
-    script: |      
-      Set-Content -Path ~/.gist -Value $env:MY_SECRET_TOKEN
-      Get-Command gist
+    script: |
+      gem install gist
+      (umask 0077 && echo MY_SECRET_TOKEN > ~/.gist)
+      gist resume.json
