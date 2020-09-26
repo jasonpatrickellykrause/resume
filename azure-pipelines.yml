@@ -18,13 +18,11 @@ steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
-    script: |     
-      
-      sudo npm install -g puppeteer --unsafe-perm=true
+    script: |
       sudo npm install -g resume-cli
       sudo npm install -g jsonresume-theme-kwan
-      sudo npm audit fix --force
-
+      pwd
       mkdir ~/resume
       resume export --theme kwan
       resume export --format resume.md
+      tree
