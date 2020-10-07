@@ -31,6 +31,7 @@ steps:
 
       # Resume Export
       resume export --theme kwan resume.html
+      resume export resume.md
 
       # Tree
       tree
