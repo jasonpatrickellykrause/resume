@@ -20,16 +20,13 @@ steps:
     targetType: 'inline'
     script: |
       # Update NPM
-      sudo npm install npm@latest --global 
+      sudo npm install npm@latest --global --unsafe-perm=true --allow-root
 
       Install resume-cli
-      sudo npm install resume-cli --global
+      sudo npm install resume-cli --global --unsafe-perm=true --allow-root
 
       # Install Kwan Theme
-      sudo npm install jsonresume-theme-kwan --global
+      sudo npm install jsonresume-theme-kwan --global --unsafe-perm=true --allow-root
 
       # Resume Export
       resume export --theme kwan resume.html      
-
-      # Tree
-      tree
