@@ -29,7 +29,7 @@ steps:
       sudo npm install resume-cli --global --unsafe-perm=true --allow-root
 
       # Install Kwan Theme
-      sudo npm install jsonresume-theme-kwan --global --unsafe-perm=true --allow-root
+      # sudo npm install jsonresume-theme-kwan --global --unsafe-perm=true --allow-root
 
       # Resume Export
       resume export --theme kwan resume.html
