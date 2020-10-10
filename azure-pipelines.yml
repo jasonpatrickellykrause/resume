@@ -31,7 +31,8 @@ steps:
       # Resume Export
       resume export --theme kwan resume.html
 
-- task: PublishPipelineArtifact@1
+- task: PublishBuildArtifacts@1
   inputs:
-    targetPath: $(System.DefaultWorkingDirectory)
-    artifactName: resume
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'resume'
+    publishLocation: 'Container'
