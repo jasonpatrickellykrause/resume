@@ -6,6 +6,9 @@ steps:
   inputs:
     versionSpec: '>= 2.5'
 
+- task: NodeTool@0
+  inputs:
+    versionSpec: '6.x'
 
 - task: Bash@3
   inputs:
@@ -31,8 +34,6 @@ steps:
       # Resume Export
       resume export --theme kwan resume.html
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'resume'
-    publishLocation: 'Container'
+- download: current
+  artifact: resume
+  patterns: '**/*.html'
