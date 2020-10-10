@@ -29,4 +29,9 @@ steps:
       sudo npm install jsonresume-theme-kwan --global --unsafe-perm=true --allow-root
 
       # Resume Export
-      resume export --theme kwan resume.html      
+      resume export --theme kwan resume.html
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: $(System.DefaultWorkingDirectory)
+    artifactName: resume
