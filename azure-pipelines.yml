@@ -1,5 +1,5 @@
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-20.04'
 
 steps:
 - task: UseRubyVersion@0
@@ -33,7 +33,7 @@ steps:
       
       #
       resume --version
-      
+
       # Resume Export
       resume export resume.html
 
