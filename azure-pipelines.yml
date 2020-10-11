@@ -32,7 +32,7 @@ steps:
       sudo npm install jsonresume-theme-kwan --global --unsafe-perm=true --allow-root
       
       # Resume Export
-      resume export --theme resume.html
+      resume export  format html --theme kwan resume.html
 
 - download: current
   artifact: resume
