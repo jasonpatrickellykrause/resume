@@ -34,7 +34,17 @@
     },
     "work": [
         {
+            "company": "Dark Wolf Solutions",
+            "highlights": [],
+            "location": "Colorado Springs, CO",
+            "position": "Senior Associate",
+            "startDate": "2020-11-09",
+            "summary": "DevOps Platform Engineer supporting Platform One",
+            "website": "https://www.darkwolfsolutions.com/"
+        },
+        {
             "company": "Raytheon Technologies",
+            "endDate": "2020-11-09",
             "highlights": [],
             "location": "Colorado Springs, CO",
             "position": "Platform Engineer / Scrum Master",
