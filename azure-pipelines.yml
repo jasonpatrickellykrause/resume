@@ -1,11 +1,14 @@
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-20.04'
 
 steps:
 - task: UseRubyVersion@0
   inputs:
     versionSpec: '>= 2.5'
 
+- task: NodeTool@0
+  inputs:
+    versionSpec: '6.x'
 
 - task: Bash@3
   inputs:
@@ -14,3 +17,26 @@ steps:
       gem install gist
       (umask 0077 && echo $(MY_SECRET_TOKEN) > ~/.gist)
       gist -u b4e53b549f0deaa27a01ab9955bce674 resume.json
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Update NPM
+      sudo npm install npm@latest --global --unsafe-perm=true --allow-root
+      
+      Install resume-cli
+      sudo npm install resume-cli --global --unsafe-perm=true --allow-root
+      
+      # Install Kwan Theme      
+      sudo npm install jsonresume-theme-kwan --global --unsafe-perm=true --allow-root
+      
+      #
+      resume --version
+
+      # Resume Export
+      resume export resume.html
+
+- download: current
+  artifact: resume
+  patterns: '**/*.html'
