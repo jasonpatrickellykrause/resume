@@ -270,149 +270,149 @@
             "fluency": "Native speaker"
         }
     ],
-    "awards": [
+    "certificates": [
         {
             "title": "Certified Information Systems Security Professional (CISSP)",
             "summary": "(ISC)² Member ID 718670",
-            "awarder": "(ISC)²",
+            "issuer": "(ISC)²",
             "date": "2020-04-09"
         },
         {
             "title": "Security+",
             "summary": "Candidate ID COMP10287400",
-            "awarder": "CompTIA",
+            "issuer": "CompTIA",
             "date": "2007-04-27"
         },
         {
             "title": "Security+ CE",
             "summary": "Candidate ID COMP10287400",
-            "awarder": "CompTIA",
+            "issuer": "CompTIA",
             "date": "2017-10-19"
         },
         {
             "title": "Microsoft Certified: Azure Administrator Associate",
             "summary": "Certification Number: HS82-0452",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2020-11-23"
         },
         {
             "title": "Microsoft Certified: Azure Fundamentals",
             "summary": "Certification Number: H449-6971",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2020-07-01"
         },
         {
             "title": "Microsoft Certified Solutions Expert: Cloud Platform and Infrastructure",
             "summary": "Certification Number: G044-6702",
-            "awarder": "Microsoft ",
+            "issuer": "Microsoft ",
             "date": "2017-01-01"
         },
         {
             "title": "Microsoft Certified Solutions Expert: Cloud Platform and Infrastructure (Charter)",
             "summary": "Certification Number: G011-6004",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2016-11-29"
         },
         {
             "title": "Microsoft Certified Solutions Expert: Mobility (Charter)",
             "summary": "Certification Number: F806-4597",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2016-09-26"
         },
         {
             "title": "Microsoft Certified Solutions Associate: Windows Server 2016 (Charter)",
             "summary": "Certification Number: F893-9803",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2016-09-01"
         },
         {
             "title": "Microsoft Specialist: Planning for and Managing Devices in the Enterprise (Charter)",
             "summary": "Certification Number: F623-1292",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2016-01-08"
         },
         {
             "title": "Microsoft Certified Solutions Associate: Windows 10 (Charter)",
             "summary": "Certification Number: F529-0516",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2015-12-14"
         },
         {
             "title": "Microsoft Specialist: Configuring Windows Device (Charter)",
             "summary": "Certification Number: F477-5108",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2015-11-25"
         },
         {
             "title": "Microsoft Specialist: Server Virtualization with Windows Server Hyper-V and System Center",
             "summary": "Certification Number: E736-4560",
-            "awarder": "Microsoft ",
+            "issuer": "Microsoft ",
             "date": "2014-01-24"
         },
         {
             "title": "Microsoft Certified Solutions Associate: Windows Server 2012",
             "summary": "Certification Number: E238-9391",
-            "awarder": "Microsoft ",
+            "issuer": "Microsoft ",
             "date": "2013-04-16"
         },
         {
             "title": "Microsoft Certified Technology Specialist: Windows Server 2008 R2, Server Virtualization",
             "summary": "Certification Number: E004-5246",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2012-09-07"
         },
         {
             "title": "Microsoft Certified Solutions Associate: Windows Server 2008",
             "summary": "Certification Number: D713-8802",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2012-04-16"
         },
         {
             "title": "Microsoft Certified Technology Specialist: Windows Server 2008 Applications Infrastructure, Configuration",
             "summary": "Certification Number: B007-4777",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2009-09-30"
         },
         {
             "title": "Microsoft Certified IT Professional: Enterprise Administrator on Windows Server 2008",
             "summary": "Certification Number: B007-4779",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2009-09-30"
         },
         {
             "title": "Microsoft Certified Technology Specialist: Windows Server 2008 Active Directory, Configuration",
             "summary": "Certification Number: B007-4775",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2008-10-13"
         },
         {
             "title": " Microsoft Certified Technology Specialist: Windows Server 2008 Network Infrastructure, Configuration",
             "summary": "Certification Number: B007-4776",
-            "awarder": "Microsoft",
+            "issuer": "Microsoft",
             "date": "2008-10-13"
         },
         {
             "title": "Professional Scrum Master I",
             "summary": "https://www.scrum.org/certificates/439036",
-            "awarder": "Scrum.org",
+            "issuer": "Scrum.org",
             "date": "2019-08-08"
         },
         {
             "title": "Precision Nutrition Level 1 Certificate",
             "summary": "",
-            "awarder": "Precision Nutrition",
+            "issuer": "Precision Nutrition",
             "date": "2019-12-26"
         },
         {
             "title": "CrossFit Level 2 Trainer Certificate",
             "summary": "",
-            "awarder": "CrossFit",
+            "issuer": "CrossFit",
             "date": "2017-08-13"
         },
         {
             "title": "CrossFit Level 1 Trainer Certificate",
             "summary": "",
-            "awarder": "CrossFit",
+            "issuer": "CrossFit",
             "date": "2015-09-25"
         }
     ],
