@@ -49,7 +49,7 @@
             "location": "Colorado Springs, CO",
             "position": "Platform Engineer / Scrum Master",
             "startDate": "2020-06-01",
-            "summary": "Developer and Scrum Master for DevSecOps Platform Engineering team. Initial team goals included replacing costly legacy lab solutions with Lab as a Service (LaaS) solution that provides internal customers with immutable test infrastructure. Sucess of initial program has ignited interest in developing similar solution beyond development into test and delivery. Work with stakeholders and customers to develop continuous integration platform pipeline using Gitlab CI, HashiCorp Packer, Ansible, and OpenSCAP.",
+            "summary": "Developer and Scrum Master for DevSecOps Platform Engineering team. Initial team goals included replacing costly legacy lab solutions with Lab as a Service (LaaS) solution that provides internal customers with immutable test infrastructure. Success of initial program has ignited interest in developing similar solution beyond development into test and delivery. Work with stakeholders and customers to develop continuous integration platform pipeline using Gitlab CI, HashiCorp Packer, Ansible, and OpenSCAP.",
             "website": "https://www.rtx.com/"
         },
         {
