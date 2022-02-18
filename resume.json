@@ -43,6 +43,15 @@
             "website": "https://www.darkwolfsolutions.com/"
         },
         {
+            "company": "CrossFit Blue Cord",
+            "highlights": [],
+            "location": "Gleneagle, CO",
+            "position": "CrossFit Level 2 Trainer (CF-L2 Trainer)",
+            "startDate": "2019-10-01",
+            "summary": "Lead CrossFit workouts for a wide variety of clients with different goals. Educate clients on proper form, gymnastic and Olympic lifting techniques, injury prevention, mobility, and proper nutrition. Provide specialized training for clients based on personal needs and goals.",
+            "website": "https://www.bluecordcrossfit.com/"
+        },
+        {
             "company": "Raytheon Technologies",
             "endDate": "2020-11-09",
             "highlights": [],
@@ -51,15 +60,6 @@
             "startDate": "2020-06-01",
             "summary": "Developer and Scrum Master for DevSecOps Platform Engineering team. Initial team goals included replacing costly legacy lab solutions with Lab as a Service (LaaS) solution that provides internal customers with immutable test infrastructure. Success of initial program has ignited interest in developing similar solution beyond development into test and delivery. Work with stakeholders and customers to develop continuous integration platform pipeline using Gitlab CI, HashiCorp Packer, Ansible, and OpenSCAP.",
             "website": "https://www.rtx.com/"
-        },
-        {
-            "company": "CrossFit Blue Cord",
-            "highlights": [],
-            "location": "Gleneagle, CO",
-            "position": "CrossFit Level 2 Trainer (CF-L2 Trainer)",
-            "startDate": "2019-10-01",
-            "summary": "Lead CrossFit workouts for a wide variety of clients with different goals. Educate clients on proper form, gymnastic and Olympic lifting techniques, injury prevention, mobility, and proper nutrition. Provide specialized training for clients based on personal needs and goals.",
-            "website": "https://www.bluecordcrossfit.com/"
         },
         {
             "company": "Raytheon Technologies",
